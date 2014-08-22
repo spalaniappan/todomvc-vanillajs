@@ -21,7 +21,7 @@ before_install:
  - "sh -e /etc/init.d/xvfb start"
  - "sleep 2"
  - "cat /etc/init.d/xvfb"
-language: node.js
+language:node_js
 node.js:
  - 0.10
 env:
